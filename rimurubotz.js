@@ -729,7 +729,11 @@ if (!q) return reply("Masukkan kata")
 var nyz = await api.search.pin(q) 
 sendMedia("image", nyz[Math.floor(Math.random() * nyz.length)], "😀")
 break
-
+break
+            case 'sc': {
+                m.reply('open sewa bot by sxya-md 🛒\n*fitur gc*\n• antilink\n• welcome\n• revoke\n• linkgroup\n• locked\n• unlocked\n• opengroup\n• closegroup\n• setdeks\n• setsubject\n• demote @\n• promote @\n• add +\n• kick @\n• kicktime\n• delete [reply]')
+            }
+            break
 case 'imagesketch': case 'shit': case 'burn': case 'blur': case 'greyscale': case 'pixelate': case 'removebg': case 'beautiful': case 'trash': case 'jail': case 'wanted': case 'rip': case 'gay': case 'invert':
 if (cekUser("id", sender) == null) return Notdaftar()
 if (isMedia || isQuotedImage) { 
